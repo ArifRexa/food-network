@@ -8,22 +8,47 @@
 #home{
     display: flex;
     background: url(image/back/Frame\ 57.jpg) no-repeat center center/cover;
+    margin-bottom: 20px;
+    
 
 }
+
+
 
 #home h1{
-    font-size: 70px;
-}
-
-
-
-.top{
-    margin: 200px 0px 0px 60px;
-    text-align: left;
+    font-size: 50px;
+    margin-top: 130px;
+    
     
 }
+
+/*  */
+
+#second-section{
+    display: flex;
+    background: url(image/back/Frame\ 56.jpg) no-repeat center center/cover;
+    
+}
+
+#second-section h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+.half-width{
+    width: 50%;
+    margin: 70px;
+}
+
+.top{
+    margin-top: 130px;
+}
+
+
+
 .top p{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .orange-color{
     color: orange;
@@ -31,13 +56,27 @@
 
 a{
     color: white;
-    padding: 5pxpx;
+    padding: 10px;
     
 }
-.anchor-dec{
-    border-radius: 35px;
-    background-color: orange;
-    text-decoration: none;
-    border: 7px solid orange;
 
+
+.btn {
+    padding: 6px 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: blue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#recip{
+    text-align: justify;
+    text-align: center;
+    margin: 30px 300px;
+}
+
+#recip h2{
+    margin-bottom: 20px;
 }
