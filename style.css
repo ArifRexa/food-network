@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#home{
+    display: flex;
+    background: url(image/back/Frame\ 57.jpg) no-repeat center center/cover;
+
+}
+
+#home h1{
+    font-size: 70px;
+}
+
+
+
+.top{
+    margin: 200px 0px 0px 60px;
+    text-align: left;
+    
+}
+.top p{
+    margin-bottom: 20px;
+}
+.orange-color{
+    color: orange;
+}
+
+a{
+    color: white;
+    padding: 5pxpx;
+    
+}
+.anchor-dec{
+    border-radius: 35px;
+    background-color: orange;
+    text-decoration: none;
+    border: 7px solid orange;
+
+}
