@@ -80,3 +80,51 @@ a{
 #recip h2{
     margin-bottom: 20px;
 }
+
+#recip-sec{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.recip{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 17px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 25px gray;
+}
+
+.recip img{
+    height: 150px;
+    width: 210px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#fan{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border: 40px solid white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 15px;
+    
+}
+
+.fan-follower{
+    margin: auto;
+    
+}
+
+footer{
+    border: 60px solid black;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
