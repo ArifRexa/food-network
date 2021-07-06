@@ -59,10 +59,13 @@
 
 }
 
+h1{
+    font-size: 50px;
+}
+
 
 
 #home h1{
-    font-size: 50px;
     margin-top: 130px;
     
     
@@ -70,14 +73,13 @@
 
 /*  */
 
-#second-section{
+#about{
     display: flex;
     background: url(image/back/Frame\ 56.jpg) no-repeat center center/cover;
     
 }
 
-#second-section h1{
-    font-size: 60px;
+#about h1{
     margin-bottom: 30px;
 }
 
@@ -154,7 +156,7 @@ a{
     border-radius: 11px;
 }
 
-#fan{
+#clients{
     width: 80%;
     margin: auto;
     display: flex;
@@ -174,6 +176,62 @@ a{
     font-size: 40px;
 
 }
+
+
+
+/* here is order section */
+#order h1{
+    text-align: center;
+}
+
+#order #hudai input{
+    background-image: linear-gradient(orange, tomato);
+    width: 150px;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+}
+
+
+#order-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+}
+
+#order-box input,
+#order-box textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+#order-box label{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer{
     border: 90px solid black;
